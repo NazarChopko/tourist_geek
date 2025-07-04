@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+
+.wrapper {
+  @apply w-[40%] overflow-y-auto border-r-1 border-[#e5e5e5] pr-10  py-5 pl-2 shadow-2xl;
+}
+
+.title {
+  @apply text-3xl text-black font-bold text-[24px];
+}
+
+.list {
+  @apply list-none pl-4 mt-5;
+  @apply flex flex-col gap-3;
+}

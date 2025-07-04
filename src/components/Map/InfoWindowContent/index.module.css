@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+.infoWindow__wrapper {
+  @apply p-2 max-w-[200px];
+}
+
+.title {
+  @apply font-bold text-[18px];
+}
+
+.description {
+  @apply text-sm text-gray-600;
+}

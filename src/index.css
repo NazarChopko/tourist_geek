@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+@plugin "daisyui";
+
+@import './styles/layouts/appLayout.styles.css';
+
+html {
+  height: 100%;
+  min-height: 100%;
+}
+body,
+#root {
+  height: 100%;
+}
+
+@theme {
+  --color-main-color: #2b76f0;
+  --color-active: #0cf21f;
+}
+
+.gm-ui-hover-effect {
+  display: none !important;
+}

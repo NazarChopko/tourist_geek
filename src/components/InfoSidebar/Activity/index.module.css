@@ -1,0 +1,13 @@
+@reference "../../../index.css";
+
+.title {
+  @apply text-2xl font-semibold;
+}
+
+.image {
+  @apply w-[400px] rounded-[8px] self-center;
+}
+
+.description {
+  @apply text-xl self-center;
+}

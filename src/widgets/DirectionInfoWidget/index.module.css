@@ -1,0 +1,3 @@
+.wrapper {
+  @apply flex flex-grow gap-[20px] justify-between h-full;
+}

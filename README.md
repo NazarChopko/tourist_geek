@@ -13,5 +13,7 @@ Follow these steps to run the project locally.
 ```bash
 git clone https://github.com/NazarChopko/tourist_geek.git
 cd tourist_geek
+create .env file in the root
+add VITE_GOGLE_MAP_KEY to .env file
 npm install
 npm run dev
